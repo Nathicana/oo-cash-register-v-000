@@ -6,7 +6,7 @@ def initialize(total = 0)
 end
 
 def total
-  @self 
+  self.total = total
 end
 
 
