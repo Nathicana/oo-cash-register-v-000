@@ -9,7 +9,7 @@ def initialize(total = 0)
 end
 
 def total
-
+self.total
 end
 
 
