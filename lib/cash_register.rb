@@ -25,7 +25,7 @@ end
 
 
 def void_last_transaction
-  @total = @total - @title
+  @total = @total - add_item(title, price, quantity = 1)
 end
 
 end
