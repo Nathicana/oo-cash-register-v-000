@@ -14,8 +14,8 @@ end
 
 
 def add_item(title, price, quantity = 1)
-  last_item = @total + (price * quantity)
-  @total = last_item
+  self.total += price * quantity
+quantity.times do
 items << title
 end
 
