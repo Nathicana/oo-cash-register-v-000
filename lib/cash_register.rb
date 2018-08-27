@@ -20,7 +20,7 @@ end
 
 def apply_discount
 @total = @total - 220
- 
+
 end
 
 def void_last_transaction
