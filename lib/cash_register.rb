@@ -16,7 +16,7 @@ end
 def add_item(title, price, quantity = 1)
   @total += price * quantity
 @last_items_price = price
-quantity.times do 
+quantity.times do
   @items << item
 end
 @items
