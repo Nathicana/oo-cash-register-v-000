@@ -21,7 +21,7 @@ end
 def apply_discount
 if @total = @total - 220
   puts "After the discount, the total comes to $800."
-
+end
 end
 
 def void_last_transaction
