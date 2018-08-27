@@ -4,7 +4,7 @@ class CashRegister
 
 def initialize(total = 0)
   @total = total
-  @discount = 20
+  @discount = discount
 
 end
 
@@ -28,7 +28,7 @@ end
 end
 
 def void_last_transaction
-  
+
 end
 
 end
