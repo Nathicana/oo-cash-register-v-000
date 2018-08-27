@@ -21,7 +21,7 @@ end
 def apply_discount
 
   @total = @total - 220
- puts "After the discount, the total comes to #{@total}."
+ puts "After the discount, the total comes to #{@total - 220}."
 end
 
 
