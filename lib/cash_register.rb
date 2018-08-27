@@ -19,7 +19,7 @@ def add_item(title, price, quantity = 1)
 end
 
 def apply_discount
-  discount = @total - 220
+@total = @total - 220
  
 end
 
