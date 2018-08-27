@@ -19,9 +19,9 @@ def add_item(title, price, quantity = 1)
 end
 
 def apply_discount
-
-  
- puts "After the discount, the total comes to #{@total - 220}."
+  discount = @total - 220
+ if @discount == true
+  puts "After the discount, the total comes to #{discount}."
 end
 
 
