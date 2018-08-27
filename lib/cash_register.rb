@@ -19,14 +19,14 @@ quantity.times do
 items << title
 end
 self.last_transaction = price * quantity
-end 
+end
 
 def apply_discount
 if @discount != 0
-  discount = 1 - (@discount *0.01)
+  discount = 1 - (@discount * 0.01)
   @total = @total * discount
    "After the discount, the total comes to #{@total.to_i}."
-else 
+else
    "There is no discount to apply."
 
 end
