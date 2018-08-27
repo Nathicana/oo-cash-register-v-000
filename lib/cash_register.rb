@@ -15,10 +15,10 @@ end
 
 def add_item(title, price, quantity = 1)
   @total += price * quantity
-quantity.times do
-items << title
+@lat_items_price = price
+quantity.times do @items << item 
 end
-self.last_transaction = price * quantity
+@items
 end
 
 def apply_discount
