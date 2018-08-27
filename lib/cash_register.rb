@@ -23,7 +23,7 @@ def apply_discount
  if @discount == true
   puts "After the discount, the total comes to #{discount}."
 end
-
+end
 
 def void_last_transaction
   @total = @total - last_item
