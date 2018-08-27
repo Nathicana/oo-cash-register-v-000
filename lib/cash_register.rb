@@ -12,7 +12,7 @@ def total
 @total
 end
 
-def add_item(title, price, quantity)
+def add_item(title, price, quantity = 1)
   @total = @total + (price * quantity)
 end
 
