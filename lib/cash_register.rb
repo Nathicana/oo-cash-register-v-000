@@ -13,19 +13,17 @@ end
 
 
 
-def add_item(item, price, quantity = 1)
+def add_item(title, price, quantity = 1)
   @total += price * quantity
-@last_transaction = price
-quantity.times do
-  @items << item
+ quantity.times do
+  @items << title
 end
-@items
+self.last_transaction = price * quantity
 end
 
 def apply_discount
 if @discount != 0
-  discount = 1 - (@discount * 0.01)
-  @total = @total * discount
+  @total = (total *((100.0 - discount.to_f)/100))
    "After the discount, the total comes to #{@total.to_i}."
 else
    "There is no discount to apply."
