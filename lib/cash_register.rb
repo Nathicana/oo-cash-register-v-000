@@ -31,6 +31,7 @@ end
 end
 
 def void_last_transaction
+  selt.total = self.total - self.last_transaction
 end
 
 end
