@@ -20,7 +20,7 @@ end
 
 def apply_discount
 final_price = @total - @discount
-if @discount 
+if @discount != 0
   puts "After the discount, the total comes to #{final_price}."
 else puts "There is no discount to apply."
 
